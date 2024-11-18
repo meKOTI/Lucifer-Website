@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lucyfer | Strona Główna</title>
+
+    <!-- CSS File Link-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/lucyfer_fav.ico">
+</head>
+
+<body>
+
+    <div id="preloader"></div>
+
+    <!-- Header -->
+
+    <header class="header">
+        <a href="main-page.html" class="logo"></a>
+
+        <nav>
+            <a href="main-page.html">Home</a>      
+            <a href="seasons-page.html">Sezony</a>   
+            <a href="cast-page.html">Obsada</a>
+        </nav>
+
+        <div class="icons">
+            <a id="menu-btn" class="fas fa-bars"></a>
+            <a id="menu-btn1" class="fa-solid fa-globe" href="main-page2.html"></a>
+        </div>
+        
+    </header>
+
+    <!-- Main Section -->
+
+    <div class="main-section">
+        <div class="container">
+
+            <div class="movie-poster"></div>
+
+            <div class="movie-info">
+                <div class="movie-title">
+                    <h1>Lucyfer</h1>
+                    <a href="https://www.netflix.com/pl/" class="netflix-logo"></a>
+                    <div class="stars">
+                        <input type="radio" id="star5" name="star" value="5" />
+                        <label for="star5"> Five Stars </label>
+                        <input type="radio" id="star4" name="star" value="4" />
+                        <label for="star4"> Four Stars </label>
+                        <input type="radio" id="star3" name="star" value="3" />
+                        <label for="star3"> Three Stars </label>
+                        <input type="radio" id="star2" name="star" value="2" />
+                        <label for="star2"> Two Stars </label>
+                        <input type="radio" id="star1" name="star" value="1" />
+                        <label for="star1"> One Star </label>
+                    </div>
+                </div>
+                <br>
+                <p>Nieszczęśliwy i znudzony swoim bytem Lucyfer Morningstar porzuca funkcję Władcy Piekieł, po czym udaje się do Los Angeles, gdzie zostaje właścicielem luksusowego klubu nocnego.</p>
+                <br>
+                <ul>
+                    <li>Twórca: <b>Tom Kapinos</b></li>
+                    <li>Gatunek: <b>Kryminał, Fantasy</b></li>
+                    <li>Produkcja: <b>USA</b></li>
+                    <li>Premiera: <b>10 lipca 2015</b></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Section 3 -->
+
+    <div class="main-section3">
+        <div class="raw">
+            <div class="direction-title">
+                <h1>Reżyseria</h1>
+            </div>
+            <div class="raw3">
+                <div class="photo">
+                    <a href="https://www.filmweb.pl/person/Nathan+Hope-41073"><img src="images/directors/director-1.jpg" alt=""></a>
+                </div>
+                <div class="actor-info">
+                    <h2>Nathan Hope</h2>
+                </div>
+            </div>
+            <div class="raw3">
+                <div class="photo">
+                    <a href="https://www.filmweb.pl/person/Greg+Beeman-43420"><img src="images/directors/director-2.jpg" alt=""></a>
+                </div>
+                <div class="actor-info">
+                    <h2>Greg Beeman</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Second Section -->
+
+    <div class="second-section">
+        <div class="trailer-title">
+            <h1 id="zwiastun">Zwiastun</h1>
+        </div>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/0x5GkPxAXZs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>      
+    </div>
+
+    <footer>
+        <p>Stworzona przez <b>Patryka Kotulę</b></p>
+    </footer>
+
+    <script>
+        var loader = document.getElementById("preloader");
+
+                    window.addEventListener("load", function(){
+                        loader.style.display = "none";
+                    })
+    </script>
+
+</body>
+
+</html>
